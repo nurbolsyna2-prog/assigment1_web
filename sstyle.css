@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(191, 191, 188);
+}
+
+p {
+    color: rgb(78, 74, 33)
+}
+
+p.highlight {
+    text-transform: uppercase;
+    background-color: rgb(190, 126, 188);
+}
+
+#main-heading {
+    background-color: rgb(6, 65, 116);
+    color: blueviolet
+}
+
+.city-card {
+    padding: 20px;
+    border: 15px solid green;
+    margin: 50px;
+
+
+}
+
+.London {
+    background-color: darkkhaki;
+    position: static;
+}
+
+/*laanbaatar {
+    background-color: rgb(103, 133, 123);
+    position: relative;
+    top: 30px;
+    left: 20px;
+    right: 40px;
+}*/
+.Ulanbaatar {
+    background-color: blanchedalmond;
+}
+
+.Rome {
+    background-color: rgb(108, 185, 209);
+    /*position: absolute;*/
+
+}
+
+h2 {
+    size: 4px;
+}
+
+h1 {
+    font-size: 2rem;
+    /* 2 * 16px = 32px */
+    margin-bottom: 10px;
+}
+
+.box-container {
+    width: 100%;
+    margin: 30px 0;
+    /* Space above and below the boxes */
+}
+
+.left-box {
+    float: left;
+    width: 45%;
+    background-color: #ffd166;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.right-box {
+    float: right;
+    width: 45%;
+    background-color: #06d6a0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.clear-footer {
+    clear: both;
+    /* Prevents Rome from sliding up under the floated boxes */
+    padding-top: 15px;
+}
